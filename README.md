@@ -22,6 +22,9 @@ O exercício consistiu em:
 - Utilizar as tags HTML: `<form>`, `<input>`, `<select>` e `<textarea>`.
 - Aplicar `margin`, `padding` e `hover` para melhorar a estilização.
 
+- ![image](https://github.com/user-attachments/assets/2b023c69-f779-427e-801b-0b04d95eaa3f)
+
+
 ## Tecnologias Utilizadas
 
 ### 1. **HTML5**

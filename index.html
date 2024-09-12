@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro E-commerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Cadastro para E-commerce</h1>
+
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Endereço de E-mail:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="seuEmail@gmail.com"
+        required
+      />
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required />
+
+      <label for="pais">Selecione seu País:</label>
+      <select id="pais" name="pais" required>
+        <option value="Brasil">Brasil</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Uruguai">Uruguai</option>
+      </select>
+
+      <label class="inline-label">Gênero:</label>
+      <input type="radio" id="masculino" name="genero" value="masculino" />
+      <label  for="masculino" class="inline-label">Masculino</label>
+
+      <input type="radio" id="feminino" name="genero" value="feminino"  />
+      <label class="inline-label" for="feminino">Feminino</label>
+
+      <input type="radio" id="outro" name="genero" value="outro"  />
+      <label class="inline-label" for="outro">Outro</label>
+
+      <input type="checkbox" id="termos" name="termos" required  />
+      <label class="inline-label" for="termos">Aceito os termos de serviço</label>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </body>
+</html>
